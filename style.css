@@ -1,0 +1,186 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e6e6e6;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #1a4c6d;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+  
+.text_bold {
+  font-weight: bold;
+}
+
+#header { 
+  display: flex;
+  justify-content: space-between;
+  background-color: #3498db;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 800;
+  box-shadow: 0px 1px #c5e0ed; 
+  padding-right: 20px;
+}
+
+#header img {
+  height: 50px;
+  margin: 10px;
+}
+
+#header a {
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  height: 100px;
+}
+
+#bouton_header {
+  padding: 15px;
+  background-color: #1a4c6d;
+  font-size: 14px;
+}
+
+#main {
+  margin: 8px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rectangle {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 1px 1px 2px #CCCCCC;
+}
+
+.index_rangee {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 3;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+  margin-bottom: 30px;
+}
+
+.index_colonne {
+  display: flex;
+  flex-direction: column;
+}
+
+table { 
+  border-collapse: collapse;
+}
+
+tr {
+  border-radius: 4px;
+}
+
+td {
+  padding: 5px 10px;
+  width: 100px;
+}
+
+td.adresse {
+  width: 250px;
+}
+
+td:first-child {
+  border-top-left-radius: 10px; 
+  border-bottom-left-radius: 10px;
+}
+
+td:last-child {
+  border-bottom-right-radius: 10px; 
+  border-top-right-radius: 10px; 
+}
+
+.couleur_rangee:nth-child(even){ 
+  background-color: #3498db;
+  color: #fff;
+}
+
+/* Style pour les labels */
+label {
+  display: inline-block;
+  width: 100px;
+
+}
+/* Style pour les contact*/
+#contact {
+  padding: 20px;
+
+}
+
+/* Style pour les champs de saisie */
+input[type="text"],
+input[type="tel"],
+input[type="password"],
+input[type="telephone"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+}
+
+select {
+  padding: 9px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+}
+
+/* Style pour le bouton d'envoi */
+button {
+  background-color: #1a4c6d;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(37, 109, 158);;
+}
+
+/* Style pour le formulaire */
+.form-ajouter {
+  max-width: 600px;
+  margin: 20px auto;
+  border-radius: 5px;
+} 
+
+#footer{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  
+}
+  
